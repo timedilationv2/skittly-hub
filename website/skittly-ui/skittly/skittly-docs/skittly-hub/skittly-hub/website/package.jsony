@@ -1,0 +1,197 @@
+Last login: Thu Apr 10 19:32:33 on ttys000
+arsalan@Mac ~ %  Skittly Job Response Generator</h2>
+      <form onSubmit={handleSubmit}>
+        <textarea
+          placeholder="Paste job description here..."
+          rows={8}
+          cols={70}
+          value
+zsh: parse error near `\n'
+arsalan@Mac ~ % >....
+          onChange={(e) => setJobDescription(e.target.value)}
+          required
+        />
+        <br />
+        <button type="submit" disabled={loading}>
+          {loading ? 'Generating...' : 'Generate Response'}
+        </button>
+      </form>
+
+      {response && (
+        <div style={{ marginTop: '30px', whiteSpace: 'pre-line' }}>
+          <h3>📝 Tailored Response:</h3>
+          <p>{response}</p>
+        </div>
+      )}
+    </div>
+  );
+}
+
+export default App;
+EOF
+arsalan@Mac src % cd ~/Desktop/skittly-frontend
+npm install
+npm start
+
+up to date, audited 1343 packages in 1s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+
+> skittly-frontend@0.1.0 start
+> react-scripts start
+
+(node:86467) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86467) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+Failed to compile.
+
+Module not found: Error: Can't resolve 'axios' in '/Users/arsalan/Desktop/skittly-frontend/src'
+ERROR in ./src/App.js 6:0-26
+Module not found: Error: Can't resolve 'axios' in '/Users/arsalan/Desktop/skittly-frontend/src'
+
+webpack compiled with 1 error
+cd ~/Desktop/skittly-frontend
+npm install axios --save
+
+cd ~/Desktop/skittly-frontend
+npm install axios --save
+
+^C
+arsalan@Mac skittly-frontend % cd ~/Desktop/skittly-frontend
+npm install axios --save
+
+added 3 packages, and audited 1346 packages in 2s
+
+268 packages are looking for funding
+  run `npm fund` for details
+
+8 vulnerabilities (2 moderate, 6 high)
+
+To address all issues (including breaking changes), run:
+  npm audit fix --force
+
+Run `npm audit` for details.
+arsalan@Mac skittly-frontend % npm start
+
+> skittly-frontend@0.1.0 start
+> react-scripts start
+
+(node:86611) [DEP_WEBPACK_DEV_SERVER_ON_AFTER_SETUP_MIDDLEWARE] DeprecationWarning: 'onAfterSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+(Use `node --trace-deprecation ...` to show where the warning was created)
+(node:86611) [DEP_WEBPACK_DEV_SERVER_ON_BEFORE_SETUP_MIDDLEWARE] DeprecationWarning: 'onBeforeSetupMiddleware' option is deprecated. Please use the 'setupMiddlewares' option.
+Starting the development server...
+  UW PICO 5.09                             New Buffer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 [ Read 40 lines ]
+^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Pg    ^K Cut Text   ^C Cur Pos
+^X Exit       ^J Justify    ^W Where is   ^V Next Pg    ^U UnCut Text ^T To Spell
+Compiled successfully!
+  UW PICO 5.09                             New Buffer
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+                                 [ Read 40 lines ]
+^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Pg    ^K Cut Text   ^C Cur Pos
+^X Exit       ^J Justify    ^W Where is   ^V Next Pg    ^U UnCut Text ^T To Spell
+  UW PICO 5.09                         File: package.json
+
+{
+  "name": "skittly-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+
+^G Get Help   ^O WriteOut   ^R Read File  ^Y Prev Pg    ^K Cut Text   ^C Cur Pos
+^X Exit       ^J Justify    ^W Where is   ^V Next Pg    ^U UnCut Text ^T To Spell{
+  "name": "skittly-frontend",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@testing-library/dom": "^10.4.0",
+    "@testing-library/jest-dom": "^6.6.3",
+    "@testing-library/react": "^16.3.0",
+    "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.8.4",
+    "react": "^19.1.0",
+    "react-dom": "^19.1.0",
+    "react-scripts": "5.0.1",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

@@ -1,0 +1,11 @@
+/* Professional header adjustments */
+.md-header {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+
+.md-header__title {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
