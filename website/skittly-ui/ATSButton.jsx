@@ -1,19 +1,12 @@
 import React from 'react';
 
-const ATSButton = ({ text, onClick }) => (
-  <button 
-    style={{
-      padding: '10px 20px',
-      backgroundColor: '#007bff',
-      color: '#fff',
-      border: 'none',
-      borderRadius: '4px',
-      cursor: 'pointer'
-    }}
-    onClick={onClick}
-  >
-    {text}
-  </button>
-);
+const ATSButton = (props) => {
+  return (
+    <button {...props}>
+      {props.children}
+    </button>
+  );
+};
 
 export default ATSButton;
+
